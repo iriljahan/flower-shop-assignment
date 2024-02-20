@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* top banner css styles  */
+.top-banner {
+  background-color: rgba(229, 84, 159, 0.1);
+}
+.top-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 7%;
+  padding-top: 50px;
+}
+.top-banner-text {
+  width: 50%;
+  padding-bottom: 100px;
+}
+.top-banner-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #272727;
+  margin-bottom: 32px;
+}
+.top-banner-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 32px;
+}
+.top-banner-text button {
+  background-color: #e55473;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+}
+.top-banner-img {
+  width: 50%;
+}
+.top-banner-img img {
+  width: 100%;
+}
+
+.feature-content {
+  text-align: center;
+  padding-top: 100px;
+  color: #272727;
+  margin-bottom: 50px;
+}
+.feature-content p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.flower-collection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2%;
+  margin-bottom: 100px; /* it will be removed */
+}
+.flower1 {
+  background-color: #a7216213;
+  border-radius: 300px 300px 0 0;
+  padding: 80px 50px 0 50px;
+}
+.flower1 img {
+  width: 100%;
+}
+.flower-title {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+}
+.flower2 {
+  background-color: #0598a015;
+  border-radius: 300px 300px 0 0;
+  padding: 180px 50px 0 50px;
+}
+.flower2 img {
+  width: 100%;
+}
+
+.flower3 {
+  background-color: #477d1115;
+  border-radius: 300px 300px 0 0;
+  padding: 52px 50px 0 50px;
+}
+.flower3 img {
+  width: 100%;
+}
+. .delivery-details-bg {
+  width: 80%;
+  color: #f13c3c;
+  height: 90%;
+  padding: 10px 20px;
+}
