@@ -104,9 +104,12 @@ body {
 .flower3 img {
   width: 100%;
 }
-. .delivery-details-bg {
-  width: 80%;
-  color: #f13c3c;
-  height: 90%;
-  padding: 10px 20px;
+.delivery-details-bg {
+  width: 100%;
+  padding: 70px;
+}
+.delivery-details-bg {
+  background-color: #f0ecec;
+  padding: 100px 100px 200px 200px;
+  width: 60%;
 }
