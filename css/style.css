@@ -104,12 +104,55 @@ body {
 .flower3 img {
   width: 100%;
 }
-.delivery-details-bg {
-  width: 100%;
-  padding: 70px;
+.delivery {
+  background-color: rgba(39, 39, 39, 0.05);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 86px 0;
+  margin-bottom: 25px;
+  border-radius: 8px;
 }
-.delivery-details-bg {
-  background-color: #f0ecec;
-  padding: 100px 100px 200px 200px;
-  width: 60%;
+
+.same-day {
+  text-align: center;
+}
+.same-day p {
+  margin-top: 24px;
+}
+.hot-deal {
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 70px;
+  padding-top: 230px;
+}
+.hot-deal-content {
+  display: flex;
+}
+.hot-deal-text {
+  width: 50%;
+  text-align: center;
+}
+.hot-deal-text h2 {
+  font-size: 40px;
+  color: #272727;
+}
+.hot-deal-text p {
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.hot-deal-text button {
+  background-color: #e55473;
+  border: none;
+  color: #fff;
+  padding: 20px 43px;
+  border-radius: 8px;
+}
+.hot-deal-img {
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 90px;
+}
+.hot-deal-color {
+  color: #e55473;
 }
