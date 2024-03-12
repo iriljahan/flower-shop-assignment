@@ -122,7 +122,7 @@ body {
 .hot-deal {
   background-color: rgba(229, 84, 115, 0.05);
   margin-top: 70px;
-  padding-top: 230px;
+  padding-top: 120px;
 }
 .hot-deal-content {
   display: flex;
@@ -148,9 +148,9 @@ body {
   border-radius: 8px;
 }
 .hot-deal-img {
-  width: 50%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: 30%;
+  padding-top: 0;
+  padding-bottom: 600px;
   margin-left: 90px;
 }
 .hot-deal-color {
