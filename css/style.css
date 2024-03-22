@@ -157,18 +157,27 @@ body {
 .hot-deal-color {
   color: #e55473;
 }
-.social {
-  padding-top: 120px;
+.instagrame-header {
   text-align: center;
-  align-items: center;
+  margin-top: 70px;
 }
-.social h2 {
+.instagrame-header h2 {
+  color: #272727;
   font-size: 40px;
   font-weight: 800;
-  color: #272727;
 }
-.social p {
-  font-size: 15px;
-  color: rgba(39, 39, 39, 0.644);
-  margin-top: 24px;
+.instagrame-header p {
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.insta-content {
+  display: flex;
+  gap: 20px;
+}
+.insta-single-card {
+  width: 100%;
+}
+.newslatter {
+  background-image: url(newslatter.pngs);
 }
