@@ -178,8 +178,67 @@ body {
 .insta-single-card {
   width: 100%;
 }
-.newslatter {
-  background-image: url(images/newslatter.png);
+.newsletter {
+  margin-top: 75px;
+  background-image: url(/images/newslatter.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 150px;
+}
+.newsletter-content {
+  text-align: center;
+}
+.newsletter-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #272727;
+}
+.newsletter-content p {
+  font-size: 18px;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 20px 0;
+}
+.newsletter-content input {
+  padding: 22px;
+  width: 600px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.newsletter-content button {
+  background-color: #e55473;
+  border: none;
+  color: #fff;
+  padding: 20px 43px;
+  border-radius: 8px;
+}
+.footer-content {
+  background-color: #111010;
+  width: 100%;
+}
+.footer-text {
+  text-align: center;
+}
+.footer-text h3 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 24px;
+  padding-top: 100px;
+}
+.p-a {
+  font-size: 18px;
+  margin-bottom: 26px;
+  color: rgba(255, 255, 255, 0.692);
+}
+.p-b {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.089);
+  padding-bottom: 60px;
 }
