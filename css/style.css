@@ -179,5 +179,7 @@ body {
   width: 100%;
 }
 .newslatter {
-  background-image: url(newslatter.pngs);
+  background-image: url(images/newslatter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
