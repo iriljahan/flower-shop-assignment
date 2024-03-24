@@ -180,7 +180,7 @@ body {
 }
 .newsletter {
   margin-top: 75px;
-  background-image: url(/images/newslatter.png);
+  background-image: url("../images/newslatter.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
